@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: EnemyRedDog_Idle_50x50_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 14
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eea3ff94af08014e923e95a6848aa48
+      internalID: -613653079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Idle_50x50_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 14
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871a16761084d1842a22c34d4617ffab
+      internalID: -1214169121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Idle_50x50_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 14
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc50367a5390164d977bcc8aa03c28a
+      internalID: -1667450583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Idle_50x50_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 14
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5060584b0ad734781dabcf8838d627
+      internalID: 409680135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Idle_50x50_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 14
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcb67f1eec50204ca73a3721cebaf7d
+      internalID: 1753589215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Idle_50x50_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 14
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a1dcd1e9db92b4791d1f63661a3790
+      internalID: 36503435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Idle_50x50_6
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 14
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f36739e36102b43bdc70076f52de23
+      internalID: 1629124812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Idle_50x50_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 14
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1430f90456b51b4e8d27b0a9e6805be
+      internalID: -963803548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +287,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EnemyRedDog_Idle_50x50_0: -613653079
+      EnemyRedDog_Idle_50x50_1: -1214169121
+      EnemyRedDog_Idle_50x50_2: -1667450583
+      EnemyRedDog_Idle_50x50_3: 409680135
+      EnemyRedDog_Idle_50x50_4: 1753589215
+      EnemyRedDog_Idle_50x50_5: 36503435
+      EnemyRedDog_Idle_50x50_6: 1629124812
+      EnemyRedDog_Idle_50x50_7: -963803548
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

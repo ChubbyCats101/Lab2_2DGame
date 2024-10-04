@@ -20,6 +20,7 @@ public class PlayerMoveControls : MonoBehaviour
     private bool grounded = false;
     private int jumpCount = 0; // Add jumpCount
 
+    private bool knockBack = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +37,9 @@ public class PlayerMoveControls : MonoBehaviour
     private void FixedUpdate()
     {
         CheckStatus();
+
+        if (knockBack) return;
+
         Move();
         JumpPlayer();
     }
@@ -78,4 +82,25 @@ public class PlayerMoveControls : MonoBehaviour
             jumpCount = 0; // Reset jumpCount when grounded
         }
     }
+    public IEnumerator KnockBack(float forceX, float forceY, float duration, Transform otherObject)
+    {
+        int knockBackDirection;
+        if (transform.position.x < otherObject.position.x)
+        {
+            knockBackDirection = -1;
+        }
+        else
+        {
+            knockBackDirection = 1;
+        }
+
+        knockBack = true;
+        Rigidbody2D.velocity = Vector2.zero;
+        Vector2 theForce = new Vector2(forceX * knockBackDirection, forceY);
+        Rigidbody2D.AddForce(theForce, ForceMode2D.Impulse);
+
+        yield return new WaitForSeconds(duration);
+        knockBack = false;
+        Rigidbody2D.velocity = Vector2.zero;
+    }   
 }

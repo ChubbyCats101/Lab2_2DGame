@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: EnemyRedDog_Walk_50x50_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 14
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4940af7157318f046a3ed8257593dfb3
+      internalID: 1070732424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Walk_50x50_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 14
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193e4e0adf4dd1847aecbb3bac603ef9
+      internalID: -150872559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Walk_50x50_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 13
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89973db3eb3e30d4e829ef9eba6c45c8
+      internalID: -2102348437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Walk_50x50_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 14
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1823ff0621bcc944b00f8e1267565e4
+      internalID: 1322788569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Walk_50x50_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 14
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f36ef690a07ef14fae3dfe99691a6dc
+      internalID: -997293542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Walk_50x50_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 14
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e872e1de4978e47b8fb7dd892dbd63
+      internalID: -401445360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Walk_50x50_6
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 13
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa73c9773bac6b4497531cff273e0fa
+      internalID: -2011526054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyRedDog_Walk_50x50_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 14
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6c61e3dde84bb438d96aca6dbb6413
+      internalID: 1914326263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +287,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EnemyRedDog_Walk_50x50_0: 1070732424
+      EnemyRedDog_Walk_50x50_1: -150872559
+      EnemyRedDog_Walk_50x50_2: -2102348437
+      EnemyRedDog_Walk_50x50_3: 1322788569
+      EnemyRedDog_Walk_50x50_4: -997293542
+      EnemyRedDog_Walk_50x50_5: -401445360
+      EnemyRedDog_Walk_50x50_6: -2011526054
+      EnemyRedDog_Walk_50x50_7: 1914326263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

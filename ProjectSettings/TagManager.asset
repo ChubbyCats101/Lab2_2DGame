@@ -16,9 +16,9 @@ TagManager:
   - Ground
   - PlayerStats
   - Enemy Attack
-  - 
-  - 
-  - 
+  - Enemy
+  - PlayerAttack
+  - Door
   - 
   - 
   - 
